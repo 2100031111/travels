@@ -10,7 +10,8 @@ import Search from './Search';
 function App() {
   return (
     <Router>
-    <Routes>
+    <Routes basename="ESHOPPING">
+
       <Route path="/" element={<Main />} />
       <Route path="/Aboutus" element={<Aboutus/>} />
       <Route path='/ContactUs' element={<Contactus/>}/>
